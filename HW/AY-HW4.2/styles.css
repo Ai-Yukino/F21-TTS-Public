@@ -1,0 +1,25 @@
+.border {
+   border: 2px solid red; 
+}
+
+.line-below {
+    border-bottom: 2px dotted green;
+    padding: 5px;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.smaller {
+    width: 60%;
+}
+
+.margins {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margins-smaller {
+    margin-bottom: 5px;
+}

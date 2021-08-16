@@ -1,0 +1,126 @@
+/* DRY
+Don't repeat yourself */
+
+#second_div {
+  color: darkblue;
+}
+
+.second_div {
+  color: darkblue;
+}
+
+.class_div {
+  text-align: center;
+  color: green;
+}
+
+/* unvisited */
+a:link {
+  color: mediumblue;
+}
+
+/* visited */
+
+a:visited {
+  color: aquamarine;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:active {
+    color: chocolate;
+}
+
+.big_text {
+    font-weight: bold;
+    font-size: 48px;
+    color: darkcyan;
+    padding: 16px;
+}
+
+/* target p tags which are (direct?) children of div */
+/* div p {
+    background-color: firebrick;
+} */
+
+/* target all div and p elements */
+div, .big_text {
+    background-color: #00f;
+    padding: 2px;
+}
+
+/* div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+} */
+
+div {
+    padding: 50px 30px 50px 80px;
+}
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+.standard {
+    border: 5px dashed burlywood;
+    /* margin: 50px 30px 50px 80px; */
+    /* width: 100px;
+    margin: 0px auto; */
+}
+
+.border_stuff {
+    border-radius: 25% 25% 25%;
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+}
+
+.static_div {
+    position: static;
+    border: 3px solid #73AD;
+}
+
+.absolute_div {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+    height: 150px;
+    border: 3px double cyan;
+}
+
+.relative_div {
+    position: relative;
+    left: 300px;
+    border: 3px solid crimson;
+}
+
+.fixed_div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    border: 3px solid goldenrod;
+}
+
+.sticky_div {
+    position: -webkit-sticky;
+    top: 0;
+    background-color: darkgrey;
+    border: 3px solid purple;
+    height: 500px;
+}

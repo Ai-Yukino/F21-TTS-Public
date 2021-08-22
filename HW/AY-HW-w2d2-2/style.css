@@ -1,0 +1,398 @@
+/*✨nav bar classes✨*/
+
+body {
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 7.5%;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-center-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  /* background-color: olive; */
+}
+
+.shopping-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: right;
+  padding: 10px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 15%;
+  height: 7.5vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  /* background-color: darkmagenta; */
+}
+
+.cart-icon {
+  height: 1.75em;
+  width: 1.75em;
+  position: relative;
+  top: 0.45em;
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
+.link-section-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  /* background-color: chocolate; */
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  border: none;
+}
+
+.search-button {
+  height: 2.5em;
+  width: 2.5em;
+  background-image: url("https://openclipart.org/download/213239/Search-icon.svg");
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  filter: invert(1);
+  background-color: #00ffff;
+}
+
+.search-bar {
+  border: none;
+  height: 2.5em;
+  width: 325px;
+}
+
+.minimal-flex {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: fuchsia; */
+}
+
+.minimal-link {
+  color: white;
+  text-decoration: underline solid transparent;
+  transition: text-decoration 1s ease;
+}
+
+.minimal-link:hover {
+  text-decoration: underline solid red 0.25em;
+}
+
+/* ✨Footer classes✨ */
+
+.site {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.footer-container {
+  display: flex;
+  width: 100%;
+  background-color: red;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 17.5px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 50px;
+}
+
+.footer-link-flex {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  /* background-color: fuchsia; */
+}
+
+.footer-link {
+  color: black;
+  text-decoration: overline solid transparent;
+  transition: text-decoration 1s ease;
+}
+
+.footer-link:hover {
+  text-decoration: overline solid white 0.2em;
+}
+
+.copyright {
+  width: 20%;
+  text-align: center;
+  /* background-color: darkgray; */
+}
+
+/* ✨home.html🌟 */
+
+.announcement {
+  background-color: grey;
+  font-family: "Padauk", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 100px;
+  color: goldenrod;
+  text-shadow: gainsboro 5px 7px 10px;
+  text-transform: uppercase;
+}
+
+/* ✨products.html✨ */
+
+.fake-product-carousel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  height: 600px;
+  /* background-color: orchid; */
+}
+
+.product-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 200px;
+  font-family: "Roboto", sans-serif;
+  /* background-color: lavender; */
+}
+
+.product-image {
+  width: 250px;
+  /* background-color: darkgreen; */
+}
+
+.product-name {
+  font-size: 20px;
+  /* background-color: salmon; */
+}
+
+.product-LP {
+  font-size: 15px;
+  color: grey;
+  /* background-color: crimson; */
+}
+
+.product-artist {
+  font-size: 12.5px;
+  /* background-color: darkseagreen; */
+}
+
+.price-flex {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: seashell; */
+}
+
+.info-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: peachpuff; */
+}
+
+.info-flex > * {
+  margin: 2.5px;
+}
+
+.cart-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1em solid black;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  height: 10px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  transition: opacity 0.5s ease;
+}
+
+.cart-button:hover {
+  opacity: 0.75;
+}
+
+.product-container {
+  background-color: snow;
+  border: 1px solid lightgray;
+  box-shadow: 0 1px 4px lightgray;
+}
+
+.carousel-button {
+  border: 1px solid lightgray;
+  box-shadow: 0 1px 4px lightgray;
+  background-color: snow;
+  border-radius: 100%;
+}
+
+.carousel-button:hover {
+  transform: scale(1.5);
+}
+
+/*✨connect.html✨*/
+
+.connect {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(0deg, rgb(255, 185, 198), rgb(105, 79, 246)) repeat scroll
+    0% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  /* background-color: mediumorchid; */
+}
+
+.link-tree-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  /* background-color: lightsteelblue; */
+}
+
+.link-tree-container > * {
+  border: 3.5px solid white;
+  width: 80%;
+  background-color: transparent;
+  text-align: center;
+  font-size: 40px;
+}
+
+.link-tree-container > *:hover {
+  background-color: white;
+  color: rebeccapurple;
+  transition: background-color 0.35s ease;
+}
+
+.pfp {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  font-size: 35px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  /* background-color: darkslateblue; */
+}
+
+.profile-name {
+  font-size: 20px;
+}
+
+/* ✨music.html✨ */
+
+.music {
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.record-image {
+  width: 50vh;
+  height: 50vh;
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* ✨play.html✨ */
+
+.play {
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.instructions {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.record-click {
+  width: 50vh;
+  height: 50vh;
+}
+
+.record-click:active {
+  transform: rotate(60deg);
+}
+
+/* ✨404.html✨ */
+
+.four_oh_four {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

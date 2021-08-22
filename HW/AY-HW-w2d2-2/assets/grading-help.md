@@ -15,3 +15,6 @@
 
     5. Add some hover effects on buttons and/or links
         Every page, e.g. footer and header links
+
+Hosted on netlify:
+https://optimistic-poincare-f44414.netlify.app/

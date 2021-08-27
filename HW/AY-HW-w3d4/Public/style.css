@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  height: 40%;
+  background-color: snow;
+  margin-top: 5%;
+}
+
+li:hover {
+  cursor: pointer;
+}

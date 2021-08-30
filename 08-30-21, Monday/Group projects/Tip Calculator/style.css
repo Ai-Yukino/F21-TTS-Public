@@ -1,0 +1,62 @@
+/* Colors:
+https://en.wikipedia.org/wiki/Traditional_colors_of_Japan */
+
+* {
+  background-color: #593a27;
+  color: #ffddca;
+}
+
+.highlight1 {
+  background-color: #9d2933;
+  border-radius: 6px;
+}
+
+.highlight2 {
+  background-color: #7a942e;
+  border-radius: 6px;
+}
+
+.smol {
+  width: 50%;
+  border-radius: 4px;
+  background-color: #5e5545;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.smol > * {
+  background-color: transparent;
+}
+.formula-container {
+  display: flex;
+  justify-content: center;
+}
+
+.formula {
+  background-color: #89729e;
+  border: 4px solid #89729e;
+  border-radius: 6px;
+}
+
+.smol-top {
+  margin: 7.5px 5px;
+}
+
+input[type="text"] {
+  border: 2px solid #171412;
+  border-radius: 3px;
+}
+
+input[type="text"]:focus {
+  outline: #317589 solid 3px;
+}
+
+input[type="submit"] {
+  border-radius: 3px;
+}
+
+form {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      Minimum requirements - Total bill, number of guests, and quality of
+      service.
+    </div>
+    <div>Total bill:</div>
+    <div>Number of guests:</div>
+    <div>Quality of service:</div>
+    <div>Total tip:</div>
+    <div>Total tip percentage:</div>
+    <div>Average individual tip:</div>
+    <form>
+      <label for="totalBill"></label>
+      <input type="text" id="totalBill" placeholder="Total Bill" />
+      <label for="numGuests"></label>
+      <input type="text" id="numGuests" placeholder="Number of guests" />
+      <label for="quality"></label>
+      <input type="text" id="quality" placeholder="Quality of service" />
+      <input type="submit" value="Calculate" />
+    </form>
+    <div class="smol">
+      <div class="smol-top">
+        Formula: If <span class="highlight1">number of guests ≥ 7</span>, then
+        there is a minimun tip of <span class="highlight2">15%</span>.
+        Otherwise, the minimum tip can be
+        <span class="highlight2">$0.00</span> depending on
+        <span class="highlight1">quality of service</span> (range:
+        <span class="highlight2">0</span> to
+        <span class="highlight2">10</span>). So thinking of
+        <span class="highlight1">number of guests ≥ 7</span> as a boolean,
+      </div>
+      <div class="formula-container">
+        <div class="formula">
+          <span class="highlight2">Total tip</span> =
+          <span class="highlight1">total bill</span>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

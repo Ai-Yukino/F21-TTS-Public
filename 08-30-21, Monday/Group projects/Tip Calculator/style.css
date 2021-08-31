@@ -60,3 +60,14 @@ form {
   margin-bottom: 5px;
   margin-top: 5px;
 }
+
+.output {
+  border-radius: 4px;
+  width: 50%;
+  background-color: #5e5545;
+  padding: 7.5px 5px;
+}
+
+.output > * {
+  background-color: transparent;
+}

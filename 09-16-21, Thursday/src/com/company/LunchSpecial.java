@@ -15,12 +15,15 @@ public class LunchSpecial {
         this.priceAdjustment2 = 70;
         this.portionAdjustment1 = 80;
         this.portionAdjustment2 = 80;
-
+        System.out.println(item1.priceInDollars);
+        this.item1.priceInDollars += 25;
+        System.out.println(item1.priceInDollars);
     }
 
     // public void changeTest(MenuItem item) {
     //
     // }
+
 
     public String toString() {
         return "Lunch Special: " + this.item1 + " and " + this.item2;

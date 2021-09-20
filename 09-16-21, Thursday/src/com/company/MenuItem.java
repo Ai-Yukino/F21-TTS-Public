@@ -2,8 +2,9 @@ package com.company;
 
 public class MenuItem {
     //Instance Variables
+    // private int priceInDollars;
     protected int priceInDollars;
-    protected String name;
+    private String name;
     protected boolean available;
     protected String ingredients;
 
